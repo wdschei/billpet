@@ -1,0 +1,91 @@
+
+body {
+    padding-left: 11em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: purple;
+    background-color: #FFFF00
+}
+
+h1 {
+    font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif
+}
+
+header {
+    margin-top: 2em;
+    padding-top: 1em;
+    margin-bottom: 1em;
+    padding-bottom: 0em;
+    border-top: thin dotted
+}
+
+nav.nav-primary {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 10em
+}
+
+nav.nav-primary ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav.nav-primary li {
+    background: orange;
+    margin: 0.5em 0;
+    padding: 0.3em;
+}
+
+nav.nav-primary a:link {
+    color: yellow
+}
+
+nav.nav-primary a:visited {
+    color: yellow
+}
+
+nav.nav-primary a:active {
+}
+
+nav.nav-primary a:hover {
+    color: orange;
+    font-style: italic;
+    background: yellow
+}
+
+dt {
+    font-weight: bold;
+    padding: 0.5em 0 0 0;
+}
+
+dd {
+    margin: 5;
+    padding: 0 0 0.5em 0;
+}
+
+a:link {
+    color: blue
+}
+
+a:visited {
+    color: purple
+}
+
+a:active {
+}
+
+a:hover {
+    color: green;
+    font-style: italic;
+    background: #F9EDED
+}
+
+footer {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted
+}
