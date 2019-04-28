@@ -1,0 +1,10 @@
+- name: Home
+  link: /
+- name: Cremation Prices
+  link: /prices.html
+- name: Urn Selection
+  link: /urn.html
+- name: References
+  link: /references.html
+- name: Contact Bill & Comments
+  link: /contact.html

@@ -1,0 +1,9 @@
+<nav class="nav-primary">
+    <ul>
+        {% for item in site.data.navigation %}
+        <li><a href="{{ item.link }}" {% if page.url== item.link %}style="color: purple;" {% endif %}>
+            {{ item.name }}
+        </a></li>
+        {% endfor %}
+    </ul>
+</nav>
