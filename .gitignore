@@ -1,0 +1,17 @@
+# Jekyll
+_site
+.sass-cache/
+
+# IntelliJ IDEA
+*.iml
+*.ipr
+*.iws
+.idea/
+local/
+classes/
+
+# Gradle bits from: https://github.com/github/gitignore/blob/master/Gradle.gitignore
+.gradle
+build/
+out/
+.gradletasknamecache
