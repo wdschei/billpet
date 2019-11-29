@@ -1,0 +1,65 @@
+---
+layout: default
+title: Urn Selection
+---
+<p>
+    The following are the urns currently available:
+<table class="grid" style="width: 80%">
+    <caption></caption>
+    <colgroup>
+        <col width="10%"/>
+        <col width="90%"/>
+    </colgroup>
+    <tbody>
+    {% for item in site.data.urns %}
+    <tr>
+        <td class="border">
+            {{ item.name }}<br/>
+            <img src="/img/{{ item.image }}" alt="{{ item.name }}" style="height:150px">
+        </td>
+        <td class="border">
+            <table class="grid" style="width: 80%">
+                <colgroup>
+                    <col width="25%"/>
+                    <col width="25%"/>
+                    <col width="25%"/>
+                    <col width="25%"/>
+                </colgroup>
+                <thead>
+                <tr>
+                    <th align="left">ID</th>
+                    <th align="left">Size</th>
+                    <th align="left">Price</th>
+                    <th align="left"></th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for size in item.sizes %}
+                <tr>
+                    <td>{{ size.id }}</td>
+                    <td>{{ size.size }}</td>
+                    <td>${{ size.dollars }}.00</td>
+                    <td>
+                        {% if size.paypal_encrypted_value %}
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="image" name="submit" border="0"
+                                   alt="PayPal - The safer, easier way to pay online!"
+                                   src="https://www.paypal.com/en_US/i/btn/btn_buynow_LG.gif">
+                            <img alt="" border="0" width="1" height="1"
+                                 src="https://www.paypal.com/en_US/i/scr/pixel.gif">
+                            <input type="hidden" name="encrypted"
+                                   value="{{ size.paypal_encrypted_value }}">
+                        </form>
+                        {% endif %}
+                    </td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+</p>
