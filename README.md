@@ -19,8 +19,12 @@ You can view the local site at:
 
 * http://localhost:4000
 
+OR on Windows, it is typically at:
+
+* http://192.168.99.100:4000
+
 Remember that when any changes are saved to the local cloned pages, Jekyll automagically detects this and rebuilds them in the `_site` directory which is what is being served locally.
-This provides a very fast and local feedback loop to test changes before `commit`'ing and `push`'ing them to be published publicly.  
+This provides a very fast and local feedback loop to test changes before `commit`'ing and `push`'ing them to be published publicly.
 
 The currently published site based on the `gh-pages` branch can be viewed at:
 
