@@ -18,3 +18,7 @@ out/
 
 # Linux/GIMP
 **/.directory
+
+# Local & Tmp files
+local/
+tmp/
