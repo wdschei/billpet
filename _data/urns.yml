@@ -4,173 +4,174 @@
     - id: "#1"
       size: Small
       dollars: 25
-      paypal_encrypted_value: "-----BEGIN PKCS7----- xyz -----END PKCS7-----"
     - id: "#1"
       size: Medium
       dollars: 25
     - id: "#1"
       size: Large
       dollars: 25
+    - id: "#1"
+      size: With Services
+      dollars: 0
+  hosted_button_id: DJGPSNFA3TT3Q
 - name: Carved Box
   image: urn_carved.png
   sizes:
     - id: "#2"
       size: Small
-      dollars: 30
-      paypal_encrypted_value: "-----BEGIN PKCS7----- xyz -----END PKCS7-----"
+      dollars: 25
     - id: "#3"
       size: Medium
       dollars: 25
     - id: "#4"
       size: Large
       dollars: 25
+    - id: "#5"
+      size: With Services
+      dollars: 0
+  hosted_button_id: GUGFVMRY7G6SA
 - name: Placard Box
   image: urn_placard.png
   sizes:
     - id: "#6"
       size: Small
       dollars: 25
-      paypal_encrypted_value: "-----BEGIN PKCS7----- xyz -----END PKCS7-----"
     - id: "#7"
       size: Medium
       dollars: 25
     - id: "#8"
       size: Large
       dollars: 25
+    - id: "#9"
+      size: With Services
+      dollars: 0
+  hosted_button_id: TMFUQDB7JZT2N
 - name: Paw Print
   image: pawprint.png
   sizes:
     - id: N
-      size:
+      size: Paw Print
       dollars: 20
-      paypal_encrypted_value: "-----BEGIN PKCS7----- xyz -----END PKCS7-----"
+  hosted_button_id: 2J6V8KAL7VZ8J
 - name: Cats
   image: urn_cats.png
   sizes:
-    - id: "A"
-      size: ""
+    - id: A
+      size: Cats
       dollars: 95
-      paypal_encrypted_value: "-----BEGIN PKCS7----- xyz -----END PKCS7-----"
+  hosted_button_id: DE4FCU27GMHDL
 - name: Angel
   image: urn_angel.png
   sizes:
-    - id: "B"
-      size: ""
+    - id: B
+      size: Angel
       dollars: 55
-      paypal_encrypted_value: "-----BEGIN PKCS7----- xyz -----END PKCS7-----"
+  hosted_button_id: T7Q53APT5R98U
 - name: Heart
   image: urn_heart.png
   sizes:
-    - id: "C"
-      size: ""
+    - id: C
+      size: Heart
       dollars: 55
-      paypal_encrypted_value: "-----BEGIN PKCS7----- xyz -----END PKCS7-----"
+  hosted_button_id: WGTWY7UQDBSTL
 - name: Ocean View
   image: urn_ocean.png
   sizes:
-    - id: "D"
+    - id: D
       size: Small
       dollars: 25
-      paypal_encrypted_value: "-----BEGIN PKCS7----- xyz -----END PKCS7-----"
-    - id: "E"
+    - id: E
       size: Medium
       dollars: 30
-      paypal_encrypted_value: "-----BEGIN PKCS7----- xyz -----END PKCS7-----"
-    - id: "F"
+    - id: F
       size: Large
       dollars: 35
-      paypal_encrypted_value: "-----BEGIN PKCS7----- xyz -----END PKCS7-----"
+  hosted_button_id: K2FNEKR9A3KYW
 - name: Meadow View
   image: urn_meadow.png
   sizes:
-    - id: "G"
+    - id: G
       size: Small
       dollars: 25
-      paypal_encrypted_value: "-----BEGIN PKCS7----- xyz -----END PKCS7-----"
-    - id: "H"
+    - id: H
       size: Medium
       dollars: 30
-      paypal_encrypted_value: "-----BEGIN PKCS7----- xyz -----END PKCS7-----"
-    - id: "I"
+    - id: I
       size: Large
       dollars: 35
-      paypal_encrypted_value: "-----BEGIN PKCS7----- xyz -----END PKCS7-----"
+  hosted_button_id: HV5MN2PVL6UYC
 - name: Little Print
   image: urn_paw.png
   sizes:
-    - id: "K"
+    - id: K
       size: Small
       dollars: 95
-      paypal_encrypted_value: "-----BEGIN PKCS7----- xyz -----END PKCS7-----"
-    - id: "J"
-      size: Large
+    - id: J
+      size: Medium
       dollars: 100
-      paypal_encrypted_value: "-----BEGIN PKCS7----- xyz -----END PKCS7-----"
+  hosted_button_id: MJG89EHCZUTDJ
 - name: Black Marble
   image: urn_black.png
   sizes:
-    - id: "M"
+    - id: M
       size: Small
       dollars: 100
-      paypal_encrypted_value: "-----BEGIN PKCS7----- xyz -----END PKCS7-----"
-    - id: "L"
+    - id: L
       size: Medium
       dollars: 130
-      paypal_encrypted_value: "-----BEGIN PKCS7----- xyz -----END PKCS7-----"
+  hosted_button_id: Q4KYB6LBFHCJY
 - name: Cream Marble
   image: urn_cream.png
   sizes:
-    - id: "S"
+    - id: S
       size: Small
       dollars: 100
-      paypal_encrypted_value: "-----BEGIN PKCS7----- xyz -----END PKCS7-----"
-    - id: "R"
+    - id: R
       size: Medium
       dollars: 130
-      paypal_encrypted_value: "-----BEGIN PKCS7----- xyz -----END PKCS7-----"
+  hosted_button_id: NBR6TRAPKLQX2
 - name: Gray Marble
   image: urn_gray.png
   sizes:
-    - id: "U"
+    - id: U
       size: Small
       dollars: 100
-      paypal_encrypted_value: "-----BEGIN PKCS7----- xyz -----END PKCS7-----"
-    - id: "T"
+    - id: T
       size: Medium
       dollars: 130
-      paypal_encrypted_value: "-----BEGIN PKCS7----- xyz -----END PKCS7-----"
-- name: Photo Stained
-  image: urn_photo2.png
+  hosted_button_id: W3Y3L6TZPRFX2
+- name: Stained Photo Box
+  image: urn_stained.png
   sizes:
-    - id: "V"
-      size: Medium
+    - id: V
+      size: Stained Photo
       dollars: 130
-      paypal_encrypted_value: "-----BEGIN PKCS7----- xyz -----END PKCS7-----"
+  hosted_button_id: TKMCEGSM52KB8
 - name: Red Bronze
   image: urn_red.png
   sizes:
-    - id: "W"
-      size: Medium
+    - id: W
+      size: Red Bronze
       dollars: 130
-      paypal_encrypted_value: "-----BEGIN PKCS7----- xyz -----END PKCS7-----"
+  hosted_button_id: QQPSVGLTXTMRS
 - name: Lined Bronze
   image: urn_lined.png
   sizes:
-    - id: "X"
-      size: Medium
+    - id: X
+      size: Lined Bronze
       dollars: 130
-      paypal_encrypted_value: "-----BEGIN PKCS7----- xyz -----END PKCS7-----"
+  hosted_button_id: SVF6J3DJRJJJE
 - name: Ocean Bronze
   image: urn_ocean2.png
   sizes:
-    - id: "Y"
-      size: Medium
+    - id: Y
+      size: Ocean Bronze
       dollars: 130
-      paypal_encrypted_value: "-----BEGIN PKCS7----- xyz -----END PKCS7-----"
+  hosted_button_id: 53MHMLK3UQ2HL
 - name: Purple Butterflys
   image: urn_purple.png
   sizes:
-    - id: "Z"
-      size: Medium
+    - id: Z
+      size: Purple Butterflys
       dollars: 130
-      paypal_encrypted_value: "-----BEGIN PKCS7----- xyz -----END PKCS7-----"
+  hosted_button_id: 48XGAKGRMAHSA
