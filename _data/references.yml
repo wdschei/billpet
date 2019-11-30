@@ -1,0 +1,27 @@
+- name: Belcher Animal Hospital
+  address: Corpus Christi, TX 78411
+  phone: 361-991-2998
+- name: Riverside Veterinary Clinic
+  address: Corpus Christi, TX
+  phone: 361-387-2427
+- name: Calhoun County Animal Hospital
+  address: Port Lavaca, TX
+  phone: 361-552-4526
+- name: McCoy Veterinary Clinic
+  address: Sinton, TX
+  phone: 361-364-4551
+- name: Hubert Veterinary Hospital
+  address: Kingsville, TX
+  phone: 361-592-7654
+- name: Alamosa Animal Hospital
+  address: Alice, TX
+  phone: 361-668-0028
+- name: Tejas Veterinary Hospital
+  address: Robstown, TX.
+  phone: 361-387-9999
+- name: Beeville Veterinary Hospital
+  address: Beeville, TX
+  phone: 361-358-3919
+- name: South Texas Veterinary Clinic
+  address: Beeville, TX
+  phone: 361-358-8351

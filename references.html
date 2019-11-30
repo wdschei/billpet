@@ -5,68 +5,14 @@ title: References
 <p>
     The following Veterinary Hospitals have utilized my services
 <dl>
+    {% for reference in site.data.references %}
     <dt>
-        Belcher Animal Hospital
+        {{ reference.name }}
     </dt>
     </dd>
-        Corpus Christi, TX 78411<br>
-        361-991-2998
+        {{ reference.address }}<br>
+        {{ reference.phone }}
     </dd>
-    <dt>
-        Riverside Veterinary Clinic
-    </dt>
-    </dd>
-        Corpus Christi, TX<br>
-        361-387-2427
-    </dd>
-    <dt>
-        Calhoun County Animal Hospital
-    </dt>
-    </dd>
-        Port Lavaca, TX<br>
-        361-552-4526
-    </dd>
-    <dt>
-        McCoy Veterinary Clinic
-    </dt>
-    </dd>
-        Sinton, TX<br>
-        361-364-4551
-    </dd>
-    <dt>
-        Hubert Veterinary Hospital
-    </dt>
-    </dd>
-        Kingsville, TX<br>
-        361-592-7654
-    </dd>
-    <dt>
-        Alamosa Animal Hospital
-    </dt>
-    </dd>
-        Alice, TX<br>
-        361-668-0028
-    </dd>
-    <dt>
-        Tejas Veterinary Hospital
-    </dt>
-    </dd>
-        Robstown, TX.<br>
-        361-387-9999
-    </dd>
-    <dt>
-        Beeville Veterinary Hospital
-    </dt>
-    </dd>
-        Beeville, TX<br>
-        361-358-3919
-    </dd>
-    <dt>
-        South Texas Veterinary Clinic
-    </dt>
-    </dd>
-        Beeville, TX<br>
-        361-358-8351
-    </dd>
+    {% endfor %}
 </dl>
 </p>
