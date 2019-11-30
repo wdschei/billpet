@@ -17,8 +17,10 @@ github_username:  wdschei
 #
 exclude:
   - .idea
+  - local
+  - tmp
+  - .jekyll-cache/
 #   - .sass-cache/
-#   - .jekyll-cache/
 #   - gemfiles/
 #   - Gemfile
 #   - Gemfile.lock
