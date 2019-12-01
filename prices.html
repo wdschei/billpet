@@ -9,19 +9,20 @@ title: Prices
         Pick Up
     </dt>
     <dd>
-        We will come to your home or Office and pick up any deceased pet up to 99 pounds as part of our cremation
-        services.<br>
-        Any pet 100 pounds and over will be $300.00 Private Cremation.
+        We will come to your home or Office and pick up any deceased pet up to 99 pounds as part of our cremation services.<br>
+        Any pickup outside normal business hours of 7am to 5pm Monday thru Friday excluding Holidays will have an additional fee.
     </dd>
     <dt>
         Delivery
     </dt>
     <dd>
-        We will deliver the pet remains back to the home or Office in your selected urn within 48 hours of pick up.
+        We will deliver the pet remains back to your home or office in your selected urn within 48 hours of pick up.
+        With all Private and Individual cremations, the remains are returned to the pet owner in a wood urn at a minimal cost.
+        The remains from all Communal cremations are disposed of humanely and are NOT returned to the pet owner.
     </dd>
     {% for type in site.data.prices %}
     <dt>
-        {{ type.name }} Cremation
+        {{ type.name }} lbs Cremation
     </dt>
     <dd>
         {{ type.description }}<br/>
@@ -37,18 +38,57 @@ title: Prices
             <input type="hidden" name="currency_code" value="USD">
             <input type="hidden" name="on0" value="Cremation Services">
             <table>
-                <tr><td align="center">
-                    <select name="os0">
-                        {% for type in site.data.prices %}
-                        <option value="{{ type.name }}">{{ type.name }} ${{ type.dollars }}.00 USD</option>
-                        {% endfor %}
-                    </select>
-                </td></tr>
-                <tr><td align="center">
-                    <input type="image" border="0" name="submit"
-                           src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
-                           alt="PayPal - The safer, easier way to pay online!">
-                </td></tr>
+                <tr>
+                    <td align="center">
+                        <select name="os0">
+                            {% for type in site.data.prices %}
+                            <option value="{{ type.name }}">{{ type.name }} lbs ${{ type.dollars }}.00 USD</option>
+                            {% endfor %}
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <input type="image" border="0" name="submit"
+                               src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+                               alt="PayPal - The safer, easier way to pay online!">
+                    </td>
+                </tr>
+            </table>
+            <img alt="" border="0" width="1" height="1"
+                 src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+        </form>
+    </dd>
+    <dt>
+        Oversize Costs
+    </dt>
+    <dd>
+        Call for pricing.
+    </dd>
+    <dt>
+        Outside Normal Hours Fee
+    </dt>
+    <dd>
+        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="7DFTHLYGSAF7Y">
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="hidden" name="on0" value="Outside Fee">
+            <table>
+                <tr>
+                    <td align="center">
+                        <select name="os0">
+                            <option value="Outside Business Hours Fee">Outside Business Hours Fee $50.00 USD</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <input type="image" border="0" name="submit"
+                               src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+                               alt="PayPal - The safer, easier way to pay online!">
+                    </td>
+                </tr>
             </table>
             <img alt="" border="0" width="1" height="1"
                  src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
