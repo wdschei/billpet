@@ -28,4 +28,4 @@ This provides a very fast and local feedback loop to test changes before `commit
 
 The currently published site based on the `gh-pages` branch can be viewed at:
 
-* http://BillPet.TheScheideggers.com
+* http://test.BillPet.com
