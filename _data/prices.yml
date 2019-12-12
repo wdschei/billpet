@@ -1,9 +1,9 @@
-- name: Private 100-300
+- name: Private 100-150
   description: >-
     Your pet is placed into the Cremation Unit all by it self.
   dollars: 310
 
-- name: Private 10-100
+- name: Private 11-99
   description: >-
     Your pet is placed into the Cremation Unit all by it self.
   dollars: 235
@@ -11,9 +11,9 @@
 - name: Private 0-10
   description: >-
     Your pet is placed into the Cremation Unit all by it self.
-  dollars: 195
+  dollars: 170
 
-- name: Individual 10-150
+- name: Individual 11-99
   description: >-
     Two pets are placed into the Cremation Unit.<br/>
     Each pet is separated and identified in the Cremation Unit.
@@ -28,9 +28,9 @@
 - name: Communal 100-150
   description: >-
     Your pet is placed into the Cremation Unit with other pets and cremated at the same time.
-  dollars: 150
+  dollars: 145
 
-- name: Communal 0-100
+- name: Communal 0-99
   description: >-
     Your pet is placed into the Cremation Unit with other pets and cremated at the same time.
   dollars: 135
