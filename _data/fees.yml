@@ -1,0 +1,9 @@
+- name: Outside Business Hours
+  description: >-
+    Any pickup outside normal business hours of 7am to 5pm Monday thru Friday excluding Holidays will have an additional fee.
+  dollars: 50
+
+- name: Mileage
+  description: >-
+    Any pickup outside 75 miles (e.g. Palacios Veterinary Clinic) will have an additional fee.
+  dollars: 50

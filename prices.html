@@ -11,7 +11,9 @@ title: Prices
     <dd>
         We will come to your home or office and pick up any deceased pet up to 99 pounds as part of our cremation services.<br/>
         Any pet 100 pounds and over will need to be a Private Cremation.<br/>
-        Any pickup outside normal business hours of 7am to 5pm Monday thru Friday excluding Holidays will have an additional fee.
+        {% for type in site.data.fees %}
+            {{ type.description }}<br/>
+        {% endfor %}
     </dd>
     <dt>
         Delivery
@@ -64,6 +66,8 @@ title: Prices
     <dd>
         For 151-300 lbs, call for pricing.
     </dd>
+    <hr/>
+    <h1>Option 1</h1>
     <dt>
         Outside Normal Hours Fee
     </dt>
@@ -99,7 +103,7 @@ title: Prices
             <input type="hidden" name="cmd" value="_s-xclick">
             <input type="hidden" name="hosted_button_id" value="PFFYMGG3L6MH2">
             <input type="hidden" name="currency_code" value="USD">
-            <input type="hidden" name="on0" value="Outside Fee">
+            <input type="hidden" name="on0" value="Palacios Fee">
             <table>
                 <tr>
                     <td align="center">
@@ -118,6 +122,46 @@ title: Prices
             </table>
         </form>
     </dd>
+    <hr/>
+    <h1>Option 2</h1>
+    {% for type in site.data.fees %}
+    <dt>
+        {{ type.name }} Fee
+    </dt>
+    <dd>
+        {{ type.description }}<br/>
+    </dd>
+    {% endfor %}
+    <dt>
+        Additional Fees
+    </dt>
+    <dd>
+        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="ZPLVXPLTPMWMY">
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="hidden" name="on0" value="Additional Fees">
+            <table>
+                <tr>
+                    <td align="center">
+                        <select name="os0">
+                            {% for type in site.data.fees %}
+                            <option value="{{ type.name }} Fee">{{ type.name }} Fee ${{ type.dollars }}.00 USD</option>
+                            {% endfor %}
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <input type="image" border="0" name="submit"
+                               src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+                               alt="PayPal - The safer, easier way to pay online!">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </dd>
+    <hr/>
     <dt>
         Certificate of Cremation<br/>
         With Private & Individual
