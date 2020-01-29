@@ -5,5 +5,5 @@
 
 - name: Mileage
   description: >-
-    Any pickup outside 70 miles will have an additional fee.
+    Any pickup outside 50 miles will have an additional fee.
   dollars: 50
